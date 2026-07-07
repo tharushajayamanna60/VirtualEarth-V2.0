@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+#ui {
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+  color: white;
+}
+#ui button {
+  background: rgba(20, 20, 40, 0.85);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+  padding: 0.55rem 0.8rem;
+  cursor: pointer;
+}
+#ui button:hover {
+  background: rgba(40, 40, 80, 0.95);
+}
+#ui span {
+  padding: 0.45rem 0.65rem;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+#ui input[type="number"] {
+  width: 58px;
+  padding: 0.45rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.92);
+  color: #111;
+}
+#ui input[type="range"] {
+  width: 90px;
+}
+#ui label {
+  font-size: 0.9rem;
+  color: #eef;
+}
+canvas {
+  display: block;
+}
